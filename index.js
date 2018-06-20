@@ -1,0 +1,18 @@
+function theBeatlesPlay(muscicians, instruments) {
+  var array = []
+  for (let i = 0; i < muscicians.length; i++) {
+    array.push (muscicians[i] + " plays " + instruments[i]) 
+  }
+  return array
+}
+
+function johnLennonFacts(facts) {
+var i = 0
+  while (i < facts.length) { 
+    facts[i] = facts[i] + "!!!"
+    i++
+}
+return facts
+}
+
+
