@@ -17,8 +17,8 @@ return facts
 
 function iLoveTheBeatles(n) {
   var array = []
-  do (
+  do {
     array.push("I love the Beatles!")
-    n++; )
+    n++; }
     while (n < 15 )
 }
